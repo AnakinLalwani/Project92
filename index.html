@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+	<center>
+		<div class="cover col-lg-6 col-s-10 col-xs-12 ">
+			<h1 style="color: white;">Games</h1>
+			<div class="col-lg-11 col-s-11 col-xs-11 login_div1">
+				<h2>Player 1</h2>
+				<label>Username: </label>
+				<input id="player1" class="form-control" placeholder="Player 1's Username" type="text">
+				<br>
+			</div>
+			<br>
+			<div class="col-lg-11 col-s-11 col-xs-11 login_div1">
+				<h2>Player 2</h2>
+				<label>Username: </label>
+				<input id="player2" class="form-control" placeholder="Player 2's Username" type="text">
+				<br>
+			</div>
+			<br>
+			<button onclick="login()" style="width:90%;" class="btn btn-primary">Log In</button>
+			<h3 style="color: white;">Note: Please check local storage</h3>
+		</div>
+		
+	</center>
+</body>
+</html>
